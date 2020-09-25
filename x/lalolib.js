@@ -1326,7 +1326,7 @@ function Lalolab ( id, mllab , path ) {
 	// => does not work due to importScripts with relative path to the Blob unresolved (or cross-origin)
 	
 	if ( typeof(path) == "undefined" )
-		var path = "./js/lalolib/";
+		var path = "./";
 	else {
 		if (path.length > 0 && path[path.length-1] != "/" )
 			path = [path,"/"].join("");
